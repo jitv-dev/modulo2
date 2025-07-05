@@ -3,3 +3,15 @@ body{
     background-image: url(../img/fondo.png);
     background-size: cover;
 }
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+    /* Invierte el color oscuro a blanco */
+}
+
+.carousel-inner img {
+    height: 650px;
+    /* Ajusta a tu gusto */
+    object-fit: cover;
+    /* Corta la imagen si es más grande pero mantiene proporción */
+}
